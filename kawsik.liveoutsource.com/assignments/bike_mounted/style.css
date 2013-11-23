@@ -1,0 +1,57 @@
+/* CSS Document */
+	body {
+		margin:0;
+		background-color:#EEE;
+		}
+#headerBOX {
+	background-color:#0464B3;
+	min-height:60px;
+	}
+h1 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FFE8FF;
+	padding: 10px;
+	margin:0;
+	text-align:center;
+    }
+
+	#container {
+		margin:auto;
+		width:1000px;
+		background-color:#FF0;
+		}
+		
+	#homeDIV {
+		background-color:#FFF;
+		width: 500px;
+		height: 400px;
+		float:left;
+		}
+	#div-1 {
+		background-color:#CEE7FF;
+		width: 400px;
+		height: 100px;
+		}
+	#div-2 {
+		background-color:#6FB7FF;
+		width: 400px;
+		height: 100px;
+		}
+	#div-3 {
+		background-color:#379BFF;
+		width: 400px;
+		height: 100px;
+		}
+		
+		
+#footerBOX {
+	background-color:#3F3;
+	}
+#footerHeader {
+	background-color:#63C;
+	float:left;	
+}
+.footerBody {
+	background-color:#6C3;
+	float:left;
+}

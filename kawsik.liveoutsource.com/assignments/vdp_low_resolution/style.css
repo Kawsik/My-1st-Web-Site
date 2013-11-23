@@ -1,0 +1,104 @@
+/* CSS Document */
+*{
+	margin:0
+}
+
+body{
+	background-color:#F2F2F2;
+}
+
+#container{
+	width:1000px;
+	margin:0 auto;
+	background-color:#ffffff;
+	border:10px solid #CCC;
+	text-align:justify;
+}
+
+#VDPbody{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+h1{
+	color:#ffffff;
+	font-family:"proxima-nova-n1","proxima-nova",sans-serif;
+	background-color:#804040;
+	padding:10px;
+}
+
+.introduction{
+	margin-top:10px;
+}
+
+h2{
+	margin-top:20px;
+	color:#804040;
+	font-family:"proxima-nova-n1","proxima-nova",sans-serif;
+	background-color:#E1C4C4;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+h3{
+	color:#804040;
+	font-family:"proxima-nova-n1","proxima-nova",sans-serif;
+	background-color:#F1E2E2;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+p{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+img{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+ul{
+	padding-left:30px;
+	padding-right:30px;
+}
+
+.header3class{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.h3img{
+	vertical-align:top;
+	width:294px;
+}
+
+.h3imgdescription{
+	width:686px;	
+}
+
+.h3description{
+	width:980px;
+}
+
+
+.features{
+	background-color:#CCC;
+}
+
+.silentfeatures{
+	width:980px;
+	text-align:center;
+	vertical-align:top;
+	border:10px solid #F1E2E2;
+	margin-bottom:20px;	
+}
+
+.accessoriespoints{
+	margin-top:10px;
+	margin-bottom:10px;
+}

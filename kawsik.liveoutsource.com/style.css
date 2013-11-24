@@ -1,0 +1,86 @@
+<style>
+*{ font-family:'verdemoderna';}
+	body {
+		margin:0;
+		background-color:#EEE;
+		}
+#headerDIV {
+	background-color:#0464B3;
+	height:100px;
+	padding:5px;
+	font-family:'Julius Sans One',sans-serif;
+	font-size:50px;
+	color:#FFF;
+	vertical-align:middle;
+	}
+		
+#SubHeaderDIV {
+	background-color:#004080;
+	height:45px;
+	padding:5px;
+	font-size:30px;
+	color:#FFF;
+	vertical-align:middle;
+	}
+		
+	#container {
+		margin:auto;
+		width:1000px;
+		background-color:#004080;
+		height:3200px;
+		}
+		
+	#Left-sidebarDIV {
+		float: left;
+		background-color:#99C;
+		width: 250px;
+		min-height: 2980px;
+		padding: 10px;
+		margin-left:10px;
+		}
+		
+	#homeDIV {
+		background-color:#FFF;
+		width: 710px;
+		height: 3000px;
+		float:left;
+		margin-right:10px;
+		}
+	#div-1 {
+		background-color:#F0FFFF;
+		min-height: 250px;
+		padding:5px;
+		}
+	#div-2 {
+		background-color:#FFFFF0;
+		min-height: 600px;
+		padding:5px;
+		}
+	#div-3 {
+		background-color:#F5F5DC;
+		min-height: 1100px;
+		padding:5px;
+		}
+		
+		
+	#footer-before-footer {
+		background-color:#2F4F4F;
+		float:left;
+		min-height: 100px;
+		width:980px;
+		padding:10px;
+		}
+	#me-cartoon {
+		width: 200px;
+		height: 200px;
+		padding:10px;
+		position:absolute;
+		right:0px;
+		top:0px;
+		}
+#footerDIV {
+	background-color:#708090;
+	min-height: 200px;
+	padding:5px;
+	}
+</style>

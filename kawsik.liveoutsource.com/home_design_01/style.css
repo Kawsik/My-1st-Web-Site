@@ -1,0 +1,51 @@
+body{margin:0}
+#container {
+	height:3000px;
+	width: 100%;
+	background-color:#600;
+	}
+	#kawsik-Header {
+		height:100px;
+		width: 100%;
+		background-color:#06C;
+		}
+		#kawsik-Manu {
+			height:80px;
+			width: 100%;
+			background-color:#CF0;
+			}
+			#kawsik-Manu-1 {
+				height:10px;
+				width: 20px;
+				background-color:#9FF;
+				}
+			#kawsik-Manu-2 {
+				height:10px;
+				width: 20px;
+				background-color:#9CF;
+				}
+			#kawsik-Manu-3 {
+				height:10px;
+				width: 20px;
+				background-color:#99F;
+				}
+			#kawsik-Manu-4 {
+				height:10px;
+				width: 20px;
+				background-color:#96F;
+				}
+	#kawsik-body {
+		height:30px;
+		width: 100%;
+		background-color:#3C9;
+		}
+	#kawsik-footer-linklist {
+		height:30px;
+		width: 100%;
+		background-color:#F36;
+		}
+	#footer {
+		height:30px;
+		width: 100%;
+		background-color:#663;
+		}

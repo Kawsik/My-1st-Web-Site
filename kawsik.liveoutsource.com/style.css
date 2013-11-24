@@ -1,9 +1,8 @@
-<style>
 *{ font-family:'verdemoderna';}
-	body {
-		margin:0;
-		background-color:#EEE;
-		}
+body {
+	margin:0;
+	background-color:#EEE;
+	}
 #headerDIV {
 	background-color:#0464B3;
 	height:100px;
@@ -23,13 +22,13 @@
 	vertical-align:middle;
 	}
 		
-	#container {
-		margin:auto;
-		width:1000px;
-		background-color:#004080;
-		height:3200px;
-		}
-		
+#container {
+	margin:auto;
+	width:1000px;
+	background-color:#004080;
+	height:3200px;
+	}
+	
 	#Left-sidebarDIV {
 		float: left;
 		background-color:#99C;
@@ -46,23 +45,23 @@
 		float:left;
 		margin-right:10px;
 		}
-	#div-1 {
-		background-color:#F0FFFF;
-		min-height: 250px;
-		padding:5px;
-		}
-	#div-2 {
-		background-color:#FFFFF0;
-		min-height: 600px;
-		padding:5px;
-		}
-	#div-3 {
-		background-color:#F5F5DC;
-		min-height: 1100px;
-		padding:5px;
-		}
+		#div-1 {
+			background-color:#F0FFFF;
+			min-height: 250px;
+			padding:5px;
+			}
+		#div-2 {
+			background-color:#FFFFF0;
+			min-height: 600px;
+			padding:5px;
+			}
+		#div-3 {
+			background-color:#F5F5DC;
+			min-height: 1100px;
+			padding:5px;
+			}
 		
-		
+	
 	#footer-before-footer {
 		background-color:#2F4F4F;
 		float:left;
@@ -83,4 +82,3 @@
 	min-height: 200px;
 	padding:5px;
 	}
-</style>

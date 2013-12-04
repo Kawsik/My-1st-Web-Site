@@ -3,29 +3,380 @@
 <head>
     <title>My site</title>
 	<style>
-    div{
+	body {margin:0;}
+	#selectors-header {
+		height:100px;
+		width:100%;
+		float:left;
+		background-color:#8CC6FF;
+		}
+	#selectors-body {
+		min-height:100px;
+		width:100%;
+		float:left;
+		background-color:#D5FFD5;
+		}
+		#about-selectors {
+			height:100px;
+			width:100%;
+			float:left;
+			background-color:#EDDCDC;
+			}
+		#left-space {
+			min-height:500px;
+			width:20%;
+			float:left;
+			background-color:#D6EBEB;
+			}
+		#middle-body {
+			min-height:500px;
+			width:60%;
+			float:left;
+			background-color:#FFFFC1;
+			}
+			h3 {
+				font-size:20px;
+				margin:0;
+				}
+				pre {
+					margin:0;
+					padding:0;
+					}
+/********* I am appling it but I don't know about the css of this button. & I shall know it at later *********//********* I am appling it but I don't know about the css of this button. & I shall know it at later *********//********* I am appling it but I don't know about the css of this button. & I shall know it at later *********/
+												.myButton {
+													-moz-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+													-webkit-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+													box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+													background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #637aad), color-stop(1, #5972a7));
+													background:-moz-linear-gradient(top, #637aad 5%, #5972a7 100%);
+													background:-webkit-linear-gradient(top, #637aad 5%, #5972a7 100%);
+													background:-o-linear-gradient(top, #637aad 5%, #5972a7 100%);
+													background:-ms-linear-gradient(top, #637aad 5%, #5972a7 100%);
+													background:linear-gradient(to bottom, #637aad 5%, #5972a7 100%);
+													filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#637aad', endColorstr='#5972a7',GradientType=0);
+													background-color:#637aad;
+													border:1px solid #314179;
+													display:inline-block;
+													cursor:pointer;
+													color:#ffffff;
+													font-family:arial;
+													font-size:13px;
+													font-weight:bold;
+													padding:6px 12px;
+													text-decoration:none;
+												}
+												.myButton:hover {
+													background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5972a7), color-stop(1, #637aad));
+													background:-moz-linear-gradient(top, #5972a7 5%, #637aad 100%);
+													background:-webkit-linear-gradient(top, #5972a7 5%, #637aad 100%);
+													background:-o-linear-gradient(top, #5972a7 5%, #637aad 100%);
+													background:-ms-linear-gradient(top, #5972a7 5%, #637aad 100%);
+													background:linear-gradient(to bottom, #5972a7 5%, #637aad 100%);
+													filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5972a7', endColorstr='#637aad',GradientType=0);
+													background-color:#5972a7;
+												}
+												.myButton:active {
+													position:relative;
+													top:1px;
+												}
+/********* I am appling it but I don't know about the css of this button. & I shall know it at later *********//********* I am appling it but I don't know about the css of this button. & I shall know it at later *********//********* I am appling it but I don't know about the css of this button. & I shall know it at later *********/
+		#right-space {
+			min-height:500px;
+			width:20%;
+			float:left;
+			background-color:#D6D6EB;
+			}
+	#selectors-footer {
+		min-height:100px;
+		width:100%;
+		float:left;
+		background-color:#C6E2FF;
+		}
+    #abc {
+		float:left;
         background-color:#A9D3D3;
-        width: 500px;
+        width: 100%;
         font-size:24px;
-        margin:auto;
-    }
+		}
     </style>
 </head>
 <body>
-<div>
+	<div id="selectors-header">
+    </div>
+    
+    <div id="selectors-body">
+    	<div id="about-selectors"></div>
+    	<div id="left-space"></div>
+    	<div id="middle-body">
+        	<div>
+                <h3>1. <pre>*</pre></h3>
+                <p>
+                	এটি Universal selector . এর ওপর apply করা style pageএর সকল elementকে ধরে ফেলবে ।
+                </p>
+                <p>
+                	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/01.html" class="myButton" target="_blank">Preview</a>
+                </p>
+            </div>
+        	<div>
+                <h3>2. <pre>E </pre></h3>
+                <p>
+                	text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                </p>
+                <p>
+                	text text text text text text text text text text <br>
+                	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/02.html" class="myButton" target="_blank">Preview</a>
+                </p>
+            </div>
+        	<div>
+                <h3>3. <pre>E[foo] </pre></h3>
+                <p>
+                	text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                </p>
+                <p>
+                	text text text text text text text text text text <br>
+                	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/03.html" class="myButton" target="_blank">Preview</a>
+                </p>
+            </div>
+        	<div>
+                <h3>4. <pre>E[foo="bar"]</pre></h3>
+                <p>
+                	text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                </p>
+                <p>
+                	text text text text text text text text text text <br>
+                	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/04.html" class="myButton" target="_blank">Preview</a>
+                </p>
+            </div>
+        	<div>
+                <h3>5. <pre>E[foo~="bar"] </pre></h3>
+                <p>
+                	text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                </p>
+                <p>
+                	text text text text text text text text text text <br>
+                	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/05.html" class="myButton" target="_blank">Preview</a>
+                </p>
+            </div>
+        	<div>
+                <h3>6. <pre>E[foo^="bar"] </pre></h3>
+                <p>
+                	text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                </p>
+                <p>
+                	text text text text text text text text text text <br>
+                	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/06.html" class="myButton" target="_blank">Preview</a>
+                </p>
+            </div>
+        	<div>
+                <h3>7. <pre>E[foo$="bar"]</pre></h3>
+                <p>
+                	text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                </p>
+                <p>
+                	text text text text text text text text text text <br>
+                	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/07.html" class="myButton" target="_blank">Preview</a>
+                </p>
+            </div>
+        	<div>
+                <h3>8. <pre>E[foo*="bar"] </pre></h3>
+                <p>
+                	text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                </p>
+                <p>
+                	text text text text text text text text text text <br>
+                	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/08.html" class="myButton" target="_blank">Preview</a>
+                </p>
+            </div>
+        	<div>
+                <h3>9. <pre>E[foo|="en"] </pre></h3>
+                <p>
+                	text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                </p>
+                <p>
+                	text text text text text text text text text text <br>
+                	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/09.html" class="myButton" target="_blank">Preview</a>
+                </p>
+            </div>
+        	<div>
+                <h3>10. <pre>E:root </pre></h3>
+                <p>
+                	text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                </p>
+                <p>
+                	text text text text text text text text text text <br>
+                	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/10.html" class="myButton" target="_blank">Preview</a>
+                </p>
+            </div>
+        	<div>
+                <h3>11. <pre>E:nth-child(n) </pre></h3>
+                <p>
+                	text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                </p>
+                <p>
+                	text text text text text text text text text text <br>
+                	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/11.html" class="myButton" target="_blank">Preview</a>
+                </p>
+            </div>
+        	<div>
+                <h3>12. <pre>E:nth-last-child(n) </pre></h3>
+                <p>
+                	text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                </p>
+                <p>
+                	text text text text text text text text text text <br>
+                	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/12.html" class="myButton" target="_blank">Preview</a>
+                </p>
+            </div>
+        	<div>
+                <h3>13. <pre>E:nth-of-type(n)</pre></h3>
+                <p>
+                	text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                </p>
+                <p>
+                	text text text text text text text text text text <br>
+                	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/13.html" class="myButton" target="_blank">Preview</a>
+                </p>
+            </div>
+        	<div>
+                <h3>14. <pre>E:nth-last-of-type(n) </pre></h3>
+                <p>
+                	text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                </p>
+                <p>
+                	text text text text text text text text text text <br>
+                	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/14.html" class="myButton" target="_blank">Preview</a>
+                </p>
+            </div>
+        	<div>
+                <h3>15. <pre>E:first-child</pre></h3>
+                <p>
+                	text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                </p>
+                <p>
+                	text text text text text text text text text text <br>
+                	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/15.html" class="myButton" target="_blank">Preview</a>
+                </p>
+            </div>
+        	<div>
+                <h3>16. <pre>E:last-child </pre></h3>
+                <p>
+                	text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                </p>
+                <p>
+                	text text text text text text text text text text <br>
+                	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/16.html" class="myButton" target="_blank">Preview</a>
+                </p>
+            </div>
+        	<div>
+                <h3>17. <pre>E:first-of-type </pre></h3>
+                <p>
+                	text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+                </p>
+                <p>
+                	text text text text text text text text text text <br>
+                	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/17.html" class="myButton" target="_blank">Preview</a>
+                </p>
+            </div>
+         <br>   
+         <br>   
+         <br>   
+         <br>   
+         <br>   
+         <br>   
+         <br>   
+         <br>   
+         <br>   
+         <br>   
+         <br>   
+         <br>   
+         <br>   
+         <br>   
+         <br>   
+         <br>   
+         <br>   
+        	<div>
+            	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/02.html">- E </a>
+            </div>
+        	<div>
+            	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/03.html">- E[foo] </a>
+            </div>
+        	<div>
+                <a href="http://kawsik.liveoutsource.com/assignments/css_selectors/04.html">- E[foo="bar"] </a>
+            </div>
+        	<div>
+            	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/05.html">- E[foo~="bar"] </a>
+            </div>
+        	<div>
+            	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/06.html">- E[foo^="bar"] </a>
+            </div>
+        	<div>
+            	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/07.html">- E[foo$="bar"] </a>
+            </div>
+        	<div>
+            	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/08.html">- E[foo*="bar"] </a>
+            </div>
+        	<div>
+            	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/09.html">- E[foo|="en"] </a>
+            </div>
+        	<div>
+            	<a href="http://kawsik.liveoutsource.com/assignments/css_selectors/10.html">- E:root </a>
+            </div>
+        </div>
+    	<div id="right-space"></div>
+    </div>
+    
+	<div id="selectors-footer">
+    </div>
+<div id="abc">
     <p>Assignment  on Selectors:</p>
     <ul>  
-      <li><a href="http://kawsik.liveoutsource.com/selector/01.html">- * </a></li>
-      <li><a href="http://kawsik.liveoutsource.com/selector/02.html">- E </a></li>
-      <li><a href="http://kawsik.liveoutsource.com/selector/03.html">- E[foo] </a></li>
-      <li><a href="http://kawsik.liveoutsource.com/selector/04.html">- E[foo="bar"] </a></li>
-      <li><a href="http://kawsik.liveoutsource.com/selector/05.html">- E[foo~="bar"] </a></li>
-      <li><a href="http://kawsik.liveoutsource.com/selector/06.html">- E[foo^="bar"] </a></li>
-      <li><a href="http://kawsik.liveoutsource.com/selector/07.html">- E[foo$="bar"] </a></li>
-      <li><a href="http://kawsik.liveoutsource.com/selector/08.html">- E[foo*="bar"] </a></li>
-      <li><a href="http://kawsik.liveoutsource.com/selector/09.html">- E[foo|="en"] </a></li>
-      <li><a href="http://kawsik.liveoutsource.com/selector/10.html">- E:root </a><i>not present yet</i></li>
+      <li><a href="http://kawsik.liveoutsource.com/assignments/css_selectors/01.html">- * </a></li>
+      <li><a href="http://kawsik.liveoutsource.com/assignments/css_selectors/02.html">- E </a></li>
+      <li><a href="http://kawsik.liveoutsource.com/assignments/css_selectors/03.html">- E[foo] </a></li>
+      <li><a href="http://kawsik.liveoutsource.com/assignments/css_selectors/04.html">- E[foo="bar"] </a></li>
+      <li><a href="http://kawsik.liveoutsource.com/assignments/css_selectors/05.html">- E[foo~="bar"] </a></li>
+      <li><a href="http://kawsik.liveoutsource.com/assignments/css_selectors/06.html">- E[foo^="bar"] </a></li>
+      <li><a href="http://kawsik.liveoutsource.com/assignments/css_selectors/07.html">- E[foo$="bar"] </a></li>
+      <li><a href="http://kawsik.liveoutsource.com/assignments/css_selectors/08.html">- E[foo*="bar"] </a></li>
+      <li><a href="http://kawsik.liveoutsource.com/assignments/css_selectors/09.html">- E[foo|="en"] </a></li>
+      <li><a href="http://kawsik.liveoutsource.com/assignments/css_selectors/10.html">- E:root </a><i>not present yet</i></li>
     </ul>
 </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,51 +1,204 @@
 body{margin:0}
 #container {
-	height:3000px;
+	min-height:2370px;
 	width: 100%;
 	background-color:#600;
 	}
+	
+	
+/*-----------------header START-----------------*/
 	#kawsik-Header {
-		height:100px;
+		min-height:280px;
 		width: 100%;
-		background-color:#06C;
+		background-color:#58B1FC;
 		}
-		#kawsik-Manu {
-			height:80px;
-			width: 100%;
-			background-color:#CF0;
+		#header-back {
+			width:400px;
+			float:right;
+			height:250px;
+			background-color:#8AC5FF;
+			background-image:url(imgs/me-01.jpg);
+			background-size:contain;
+			background-position:bottom right;
 			}
-			#kawsik-Manu-1 {
-				height:10px;
-				width: 20px;
-				background-color:#9FF;
-				}
-			#kawsik-Manu-2 {
-				height:10px;
-				width: 20px;
-				background-color:#9CF;
-				}
-			#kawsik-Manu-3 {
-				height:10px;
-				width: 20px;
-				background-color:#99F;
-				}
-			#kawsik-Manu-4 {
-				height:10px;
-				width: 20px;
-				background-color:#96F;
-				}
+		.kawsik-Manu {
+			width:100px;
+			text-align:center;
+			font-size:20px;
+			position:absolute;
+			top:200px;
+			border-top:5px solid #58B1FC;
+			border-bottom:5px solid #58B1FC;
+			}
+		#kawsik-Manu-1 {
+			background-color:#F4EFE4;
+			right:0px;
+			}
+		#kawsik-Manu-2 {
+			background-color:#F2F2F0;
+			right:100px;
+			}
+		#kawsik-Manu-3 {
+			background-color:#E6F1F4;
+			right:200px;
+			}
+		#kawsik-Manu-4 {
+			background-color:#DDEEF6;
+			right:300px;
+			}
+/*-------------------header END-----------------*/
+
+
+/*-----------------body START-----------------*/
 	#kawsik-body {
-		height:30px;
+		min-height: 1480px;
 		width: 100%;
 		background-color:#3C9;
 		}
+	  .body-separetor {
+		  height:40px;
+		  background-color:#86AF9B;
+		  }
+		  .body-separetor-inside {
+			  height:20px;
+			  background-image:url(imgs/01.png);
+			  background-repeat:repeat-x;
+			  background-position:bottom;
+			  position:relative;
+			  top:20px;
+			  }
+	  .body-container {
+		  height:200px;
+		  }
+	  .body-a {
+		  float:left;
+		  height:200px;
+		  width:40%;
+		  background-color:#E0E3CE;
+		  background-image:url(imgs/me-02.jpg);
+		  background-position:bottom;
+		  background-repeat:no-repeat;
+		  }
+	  .body-b {
+		  float:left;
+		  height:200px;
+		  width:60%;
+		  background-color:#A7DBD7;
+		  }
+	  #body-01a {
+		  }
+	  #body-01b {
+		  }
+	  #body-02a {
+		  }
+	  #body-02b {
+		  }
+	  #body-03a {
+		  }
+	  #body-03b {
+		  }
+	  #body-04a {
+		  }
+	  #body-04b {
+		  }
+	  #body-05a {
+		  }
+	  #body-05b {
+		  }
+	  #body-06a {
+		  }
+	  #body-06b {
+		  }
+/*-----------------body END-----------------*/
+
+
+/*-----------------footer-linklist START-----------------*/
 	#kawsik-footer-linklist {
-		height:30px;
+		min-height:600px;
 		width: 100%;
-		background-color:#F36;
+		background-color:#F9C;
 		}
-	#footer {
-		height:30px;
+		#kawsik-footer-linklist-head {
+			width:200px;
+			background-color:#C5F4FC;
+			margin:auto;
+			text-align:center;
+			}
+		#kawsik-footer-linklist-container {
+			height:600px;
+			}
+			.window {
+				}
+			#kawsik-footer-linklist-left {
+				float:left;
+				height:600px;
+				width:20%;
+				background-color:#DAE7E0;
+				}
+			#kawsik-footer-linklist-center {
+				float:left;
+				height:600px;
+				width:60%;
+				background-color:#58B1FC;
+				}
+			#kawsik-footer-linklist-right {
+				float:left;
+				height:600px;
+				width:20%;
+				background-color:#DAE7E0;
+				}
+/*-----------------footer-linklist END-----------------*/
+
+
+/*-----------------footer START-----------------*/
+	#kawsik-footer {
+		min-height:200px;
 		width: 100%;
-		background-color:#663;
+		background-color:#A4DCD9;
 		}
+		.footer-link {
+			height:200px;
+			float:left;
+			}
+		#footer-link-1 {
+			background-color:#06C;
+			width:33%;
+			}
+		#footer-link-2 {
+			background-color:#096;
+			width:34%;
+			}
+		#footer-link-3 {
+			background-color:#339;
+			width:33%;
+			}
+/*-----------------footer END-----------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
